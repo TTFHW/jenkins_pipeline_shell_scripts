@@ -4,12 +4,7 @@ node('node') {
     currentBuild.result = "SUCCESS"
 
     try {
-	   stage 'Checkout'
-		    checkout scm
-
-       stage 'Build'
-            echo 'Do something'
-            sh './dosomething.sh'
+   echo 'Hello World 1'
 
         }
 
