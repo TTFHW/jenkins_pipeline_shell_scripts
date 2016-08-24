@@ -1,7 +1,5 @@
 node {
-    currentBuild.result = "SUCCESS"
-
-    try {
+   
 
    		stage 'Stage 1'
    		echo 'Hello Shell Scripts'
@@ -12,9 +10,7 @@ node {
    		stage 'Stage 4'
    		sh './dosomethingelse.sh'
    		
-    catch (err) {
-        currentBuild.result = "FAILURE"
-        echo "project build error: ${err}"
-        throw err
-    }
+   		currentBuild.result = "SUCCESS"
+    
+  
 }
