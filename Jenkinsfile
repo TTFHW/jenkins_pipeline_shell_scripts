@@ -5,4 +5,6 @@ node {
    checkout scm
    stage 'Stage 3'
    sh './dosomething.sh'
+   stage 'Stage 4'
+   sh './dosomethingelse.sh'
 }
