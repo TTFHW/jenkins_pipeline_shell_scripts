@@ -4,18 +4,12 @@ node('node') {
     currentBuild.result = "SUCCESS"
 
     try {
+	   stage 'Checkout'
+		    checkout scm
 
-       stage 'Do Something'
-
-
-
+       stage 'Build'
             echo 'Do something'
             sh './dosomething.sh'
-
-       stage 'Do Something Else'
-
-            echo 'Do something else'
-            sh './dosomethingelse.sh'
 
         }
 
