@@ -23,15 +23,8 @@ node('node') {
     catch (err) {
 
         currentBuild.result = "FAILURE"
-
-            mail body: "project build error: ${err}" ,
-            from: 'xxxx@yyyy.com',
-            replyTo: 'yyyy@yyyy.com',
-            subject: 'project build failed',
-            to: 'zzzz@yyyyy.com'
-
+        echo ${err}
         throw err
     }
 
 }
-Contact GitHub API Training Shop Blog About
