@@ -1,2 +1,2 @@
-echo "You did something else"
+echo "You just deployed your app, via this shell script!"
 ls -la
