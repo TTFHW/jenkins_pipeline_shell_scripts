@@ -3,7 +3,7 @@
 |[**_author_**](https://betterologist.net/2016/06/jammazwan-for-hire/)|No Time Like Now|[TL;DR? _about:_](https://youtu.be/vea51DzmXyA)|
 | --- | --- | --- |
 |<img class="style-svg" src="https://betterologist.net/wp-content/uploads/2016/05/pete-300x297.jpg" alt="pete" width="116" height="115" />|<img class="style-svg" src="https://betterologist.net/wp-content/uploads/2016/08/clockface.png" alt="jammazwanPhotoSmall" width="200" height="116" />|[<img class="style-svg" src="https://betterologist.net/wp-content/uploads/2016/05/jamzVid1.png" alt="about" width="115" height="115" />](https://youtu.be/vea51DzmXyA)|
-##### Complete working Camel example project, compiled and IDE ready in 60 seconds
+##### Ready to run example Jenkins Pipeline project, runnable in Jenkins CI server in 60 seconds
 ---
 
 ### jenkins_pipeline_shell_scripts 
